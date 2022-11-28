@@ -1,0 +1,18 @@
+// ---------------------------------------------------------
+// Main
+// ---------------------------------------------------------
+
+@use 'libs';
+@use 'layouts';
+@use 'components' as c;
+@use 'global' as *;
+@use 'pages';
+
+html{
+    background: color(btow, 900);
+    color: color(btow, 0);
+
+    a{
+        color:color(btow, 0);
+    }
+}

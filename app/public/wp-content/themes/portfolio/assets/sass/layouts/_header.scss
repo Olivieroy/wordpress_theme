@@ -1,0 +1,22 @@
+@use '../global' as *;
+
+.header{
+    max-width: rem(1200px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: color(btow, 900);
+    
+    &_div{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: rem(24) rem(16);
+    }
+
+    .custom-logo-link{
+        width: rem(64);
+    }
+}
+
+

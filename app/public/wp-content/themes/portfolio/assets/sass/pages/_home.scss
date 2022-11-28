@@ -1,0 +1,22 @@
+// ---------------------------------------------------------
+// Pages
+// ---------------------------------------------------------
+
+@use '../global' as *;
+
+.gradient{
+    background: linear-gradient(125deg, #A3FEFE, #7068C0);
+    background-size: 100% 100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 6s ease infinite;
+}
+
+.divise{
+    max-width: rem(600);
+    margin: auto;
+}

@@ -1,0 +1,31 @@
+@use '../global' as *;
+
+.main{
+    margin: 0 auto;
+    margin-top: rem(115.5);
+    max-width: rem(1200);
+    padding: rem(24) rem(16);
+    // text-align: center;
+
+    .main__title{
+        font-size: rem(48);
+        font-weight: 700;
+        margin-bottom: rem(16);
+    }
+
+    .main__subtitle{
+        font-size: rem(24);
+        font-weight: 400;
+        margin-bottom: rem(16);
+    }
+
+    .main__description{
+        font-size: rem(16);
+        font-weight: 400;
+        margin-bottom: rem(16);
+    }
+
+    .main__button{
+        margin-bottom: rem(16);
+    }
+}
